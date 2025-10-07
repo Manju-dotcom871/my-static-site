@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Manju-dotcom871/my-static-site.git', branch: 'main'
+                git url: 'https://github.com/Manju-dotcom871/my-static-site.git', branch: 'master'
             }
         }
         stage('Deploy to S3') {
